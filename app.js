@@ -99,7 +99,7 @@ app.configure('development', function(){
 
 // 指定webscoket的客户端的html文件
 app.get('/', function(req, res){
-  res.sendfile('views/chat.html');
+  res.sendfile('views/compass.html');
 });
 
 server.listen(app.get('port'), function(){

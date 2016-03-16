@@ -1,9 +1,14 @@
-#跨屏指南针
-====
+#跨屏指南针同步显示
+----
 
 ## 介绍
 
-跨屏指南针是通过nodejs+socket.io跨屏同步显示指南针数据角度，原理是通过手机deviceorientationAPI接口获取elpha方法获得方向数据，通过socket.io传输数据到其他屏幕上
+跨屏指南针是通过nodejs+socket.io跨屏同步显示指南针数据角度
+
+## 原理
+
+是通过手机deviceorientationAPI接口获取elpha方法获得方向数据，通过socket.io传输数据到其他屏幕上
+
 ----
 
 ## 使用
